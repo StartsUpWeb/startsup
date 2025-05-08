@@ -1,10 +1,11 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>StartsUp - Welcome</title>
     <link rel="stylesheet" href="static/css/style.css">
-    <script src="static/js/terms.js" defer></script>
+    <script src="static/js/main.js" defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
@@ -14,33 +15,24 @@
             <a href="index.html"><img src="static/images/logostartsup.png" alt="StartsUp" class="logo-img"></a>
         </div>
         <div class="nav-links">
-            <a href="termsup/index.html" class="nav-item">Terms of Service</a>
-            <a href="termsup/privacy.html" class="nav-item">Privacy Policy</a>
+            <a href="termsup/index.html" class="nav-item" id="terms-link">Terms of Service</a>
+            <a href="termsup/privacy.html" class="nav-item" id="privacy-link">Privacy Policy</a>
             <select id="language-select" onchange="changeLanguage(this.value)" class="lang-select">
                 <option value="en">EN</option>
-                <option value="zh">中文</option>
-                <option value="es">ES</option>
-                <option value="fr">FR</option>
-                <option value="de">DE</option>
-                <option value="ru">RU</option>
-                <option value="ar">AR</option>
-                <option value="pt">PT</option>
                 <option value="it">IT</option>
-                <option value="ja">JA</option>
             </select>
         </div>
     </div>
 
     <!-- Main Content -->
     <div class="container">
-        <h1>Welcome to <span class="highlight">StartsUp</span></h1>
-        <p>Where ideas meet capital. The ultimate social network for Startuppers and Investors.</p>
-        <p>StartsUp is a revolutionary platform where entrepreneurs and investors connect, collaborate, and grow. Whether you're launching your first startup or looking for the next big investment opportunity, StartsUp offers powerful tools, verified profiles, secure chats, and performance analytics to build meaningful business relationships.</p>
-        <p>Be the first to know when we launch!</p>
+        <h1 id="welcome-text">Welcome to StartsUp</h1>
+        <p id="tagline">Where ideas meet capital. The ultimate social network for Startuppers and Investors.</p>
+        <p id="description">StartsUp is a revolutionary platform where entrepreneurs and investors connect, collaborate, and grow.</p>
+        <p id="notify-text">Be the first to know when we launch!</p>
         <input type="email" placeholder="Enter your email" class="email-input">
-        <button class="notify-button">Notify Me</button>
+        <button id="notify-button" class="notify-button">Notify Me</button>
         <p class="footer">© 2025 StartsUp. All rights reserved.</p>
     </div>
 </body>
 </html>
-
