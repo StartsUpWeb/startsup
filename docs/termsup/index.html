@@ -8,33 +8,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <!-- Top Bar -->
-    <div class="top-bar">
-        <div class="logo">
-            <a href="../index.html"><img src="../logostartsup.png" alt="StartsUp" class="logo-img"></a>
-        </div>
-        <div class="nav-links">
-            <a href="index.html" class="nav-item">Terms of Service</a>
-            <a href="privacy.html" class="nav-item">Privacy Policy</a>
-            <select id="language-select" onchange="changeLanguage(this.value)" class="lang-select">
-                <option value="en">English</option>
-                <option value="it">Italiano</option>
-                <option value="es">Español</option>
-                <option value="fr">Français</option>
-                <option value="de">Deutsch</option>
-                <option value="zh">中文</option>
-                <option value="ru">Русский</option>
-                <option value="ar">العربية</option>
-                <option value="pt">Português</option>
-                <option value="ja">日本語</option>
-            </select>
-        </div>
+    <!-- Logo Centrale -->
+    <div class="logo-center">
+        <a href="/"><img src="/logostartsup.png" alt="StartsUp" class="logo-img-center"></a>
     </div>
-
     <!-- Main Content -->
     <div class="container">
         <h1>Terms of Service - StartsUp</h1>
-        <div id="terms-content">Loading terms...</div>
+        <p id="terms-content">Loading terms...</p>
+        <label for="language-select">Choose Language:</label>
+        <select id="language-select" onchange="changeLanguage(this.value)" class="lang-select">
+            <option value="en">English</option>
+            <option value="it">Italiano</option>
+            <option value="es">Español</option>
+            <option value="fr">Français</option>
+            <option value="de">Deutsch</option>
+            <option value="zh">中文</option>
+            <option value="ru">Русский</option>
+            <option value="ar">العربية</option>
+            <option value="pt">Português</option>
+            <option value="ja">日本語</option>
+        </select>
     </div>
 </body>
 </html>
