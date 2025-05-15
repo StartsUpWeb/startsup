@@ -1,7 +1,7 @@
-
 async function loadTerms(lang) {
     try {
-        const response = await fetch(`static/js/terms_${lang}.json`);
+        // Percorso corretto relativo al file terms.js
+        const response = await fetch(`./static/js/terms_${lang}.json`);
         const data = await response.json();
         document.getElementById("terms-content").innerText = data.terms;
     } catch (error) {
