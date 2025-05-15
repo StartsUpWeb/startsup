@@ -4,7 +4,7 @@ html, body {
   padding: 0;
   height: 100%;
   font-family: Arial, sans-serif;
-  background-color: #0072ff;  /* Blu uniforme */
+  background-color: #0072ff;
   color: #fff;
   text-align: center;
 }
@@ -12,14 +12,7 @@ html, body {
 body {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-}
-
-.main-content {
-  flex: 1;
-  display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .top-bar {
@@ -33,9 +26,22 @@ body {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
+.logo-container {
+  margin-left: 20px;
+}
+
 .logo-img {
   height: 50px;
-  margin-left: 20px;
+}
+
+.logo-center {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.logo-img-center {
+  height: 100px;
 }
 
 .nav-links {
@@ -64,32 +70,39 @@ body {
   margin-left: 10px;
 }
 
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 80px);
+}
+
 .container {
-  margin-top: 80px;
+  margin-top: 20px;
   max-width: 800px;
   margin: auto;
-  padding: 30px;
-  background-color: transparent;  /* Sfondo trasparente */
+  padding: 20px;
 }
 
 h1 {
-  font-size: 2.5rem;
-  margin-bottom: 10px;
+  font-size: 3rem;
+  margin-bottom: 20px;
 }
 
-.highlight {
-  color: #ffdc00;
+p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
 }
 
 .signup-form {
   margin-top: 20px;
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
   gap: 10px;
 }
 
-.signup-form input[type="email"] {
+.email-input {
   padding: 10px;
   border: none;
   border-radius: 5px;
@@ -97,7 +110,7 @@ h1 {
   max-width: 100%;
 }
 
-.signup-form button {
+.notify-button {
   padding: 10px 20px;
   border: none;
   background-color: #ffdc00;
@@ -108,26 +121,34 @@ h1 {
 }
 
 footer {
-  margin-top: 40px;
-  font-size: 0.9rem;
+  margin-top: 30px;
+  font-size: 1rem;
 }
 
 /* Responsive mobile */
 @media (max-width: 600px) {
   h1 {
-    font-size: 1.8rem;
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1rem;
   }
 
   .logo-img {
     height: 40px;
   }
 
+  .logo-img-center {
+    height: 80px;
+  }
+
   .signup-form {
     flex-direction: column;
   }
 
-  .signup-form input,
-  .signup-form button {
+  .email-input,
+  .notify-button {
     width: 100%;
   }
 }
