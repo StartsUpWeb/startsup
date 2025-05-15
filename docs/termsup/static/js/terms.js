@@ -16,7 +16,8 @@ function changeLanguage(lang) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    const defaultLang = localStorage.getItem("preferredLanguage") || navigator.language.slice(0, 2) || "en";
-    document.getElementById("language-select").value = defaultLang;
-    loadTerms(defaultLang);
+    const browserLang = navigator.language.slice(0, 2).toLowerCase();
+    const savedLang = localStorage.getItem("preferredLanguage") || browserLang || "en";
+    document.getElementById("language-select").value = savedLang;
+    loadTerms(savedLang);
 });
