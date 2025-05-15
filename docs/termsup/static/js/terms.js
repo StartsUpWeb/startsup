@@ -1,11 +1,15 @@
 async function loadTerms(lang) {
     try {
-        // Percorso corretto relativo al file terms.js
-        const response = await fetch(`./static/js/terms_${lang}.json`);
+        // Carica direttamente il file JSON dalla stessa cartella
+        const response = await fetch(`terms_${lang}.json`);
+        if (!response.ok) {
+            throw new Error(`HTTP error! Status: ${response.status}`);
+        }
         const data = await response.json();
         document.getElementById("terms-content").innerText = data.terms;
     } catch (error) {
         console.error("Error loading terms:", error);
+        document.getElementById("terms-content").innerText = "Error loading terms.";
     }
 }
 
