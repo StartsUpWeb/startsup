@@ -3,24 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <title>Terms of Service - StartsUp</title>
-    <link rel="stylesheet" href="static/css/style.css">
-    <script src="static/js/terms.js" defer></script>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <script src="../static/js/main.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="logo">
+            <a href="../index.html"><img src="../logostartsup.png" alt="StartsUp" class="logo-img"></a>
+        </div>
+        <div class="nav-links">
+            <a href="../termsup/index.html" class="nav-item">Terms of Service</a>
+            <a href="../termsup/privacy.html" class="nav-item">Privacy Policy</a>
+            <select id="language-select" onchange="changeLanguage(this.value)" class="lang-select">
+                <option value="en">EN</option>
+                <option value="it">IT</option>
+                <option value="es">ES</option>
+                <option value="fr">FR</option>
+                <option value="de">DE</option>
+                <option value="zh">ZH</option>
+                <option value="ru">RU</option>
+                <option value="ar">AR</option>
+                <option value="pt">PT</option>
+                <option value="ja">JA</option>
+            </select>
+        </div>
+    </div>
+
+    <!-- Main Content -->
     <div class="container">
-        <h1>Terms of Service - StartsUp</h1>
-        <div id="terms-content"></div>
+        <h1 id="terms-title">Terms of Service - StartsUp</h1>
+        <p id="terms-description">Using this application, you accept our terms.</p>
         <label for="language-select">Choose Language:</label>
         <select id="language-select" onchange="changeLanguage(this.value)">
             <option value="en">English</option>
-            <option value="zh">中文</option>
+            <option value="it">Italiano</option>
             <option value="es">Español</option>
             <option value="fr">Français</option>
             <option value="de">Deutsch</option>
+            <option value="zh">中文</option>
             <option value="ru">Русский</option>
             <option value="ar">العربية</option>
             <option value="pt">Português</option>
-            <option value="it">Italiano</option>
             <option value="ja">日本語</option>
         </select>
     </div>
