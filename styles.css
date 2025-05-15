@@ -1,33 +1,42 @@
 /* Impostazioni base */
-body {
+html, body {
   margin: 0;
+  padding: 0;
+  height: 100%;
   font-family: Arial, sans-serif;
   background-color: #0072ff;
   color: #fff;
   text-align: center;
-  height: 100vh;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .top-bar {
   background-color: rgba(0, 0, 0, 0.6);
   position: fixed;
+  top: 0;
   width: 100%;
-  padding: 15px 0;
+  padding: 10px 0;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-}
-
-.logo-img-center {
-  height: 100px;
-  margin: 20px auto;
+  z-index: 10;
 }
 
 .logo-center {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  align-items: center;
+  margin: 60px auto 20px auto;
+}
+
+.logo-img-center {
+  height: 100px;
 }
 
 .nav-links {
@@ -39,7 +48,7 @@ body {
 .nav-item {
   color: white;
   text-decoration: none;
-  margin: 0 10px;
+  margin: 0 15px;
   font-size: 1.1em;
 }
 
@@ -57,13 +66,27 @@ body {
 }
 
 .main-content {
-  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
   padding: 20px;
 }
 
 h1 {
-  font-size: 2.5rem;
-  margin-bottom: 10px;
+  font-size: 3rem;
+  margin: 15px 0;
+}
+
+p {
+  font-size: 1.2rem;
+  margin: 8px 0;
 }
 
 .signup-form {
@@ -73,15 +96,14 @@ h1 {
   gap: 10px;
 }
 
-.signup-form input[type="email"] {
+.email-input {
   padding: 10px;
   border: none;
   border-radius: 5px;
   width: 250px;
-  max-width: 100%;
 }
 
-.signup-form button {
+.notify-button {
   padding: 10px 20px;
   border: none;
   background-color: #ffdc00;
@@ -92,26 +114,30 @@ h1 {
 }
 
 footer {
-  margin-top: 40px;
-  font-size: 0.9rem;
+  margin-top: 30px;
+  font-size: 1rem;
 }
 
 /* Responsive mobile */
 @media (max-width: 600px) {
   h1 {
-    font-size: 1.8rem;
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1rem;
   }
 
   .logo-img-center {
-    height: 70px;
+    height: 80px;
   }
 
   .signup-form {
     flex-direction: column;
   }
 
-  .signup-form input,
-  .signup-form button {
+  .email-input,
+  .notify-button {
     width: 100%;
   }
 }
