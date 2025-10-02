@@ -1,51 +1,133 @@
-/* Impostazioni base */
+/* Global settings */
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: white;
-  color: black;
-  text-align: center;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f9fc;
+    color: #333;
+    line-height: 1.6;
 }
 
+/* Top bar */
 .top-bar {
-  background-color: rgba(0, 0, 0, 0.6);
-  position: fixed;
-  width: 100%;
-  padding: 15px 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(90deg, #0062E6, #33AEFF);
+    position: fixed;
+    width: 100%;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    z-index: 100;
 }
 
+.top-bar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.top-bar select {
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: none;
+}
+
+/* Container */
 .container {
-  margin-top: 80px;
-  padding: 30px;
+    margin: 100px auto 40px;
+    max-width: 900px;
+    padding: 0 20px;
+    text-align: center;
 }
 
+/* Hero section */
 h1 {
-  font-size: 2rem;
-  margin-bottom: 20px;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #0062E6;
 }
 
-#terms-content {
-  margin: 20px auto;
-  padding: 10px;
-  background-color: #f4f4f4;
-  border-radius: 5px;
-  max-width: 800px;
-  text-align: left;
+p {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
 }
 
-.lang-select {
-  background-color: white;
-  color: black;
-  padding: 5px;
-  border: none;
-  border-radius: 5px;
+/* Sign-up form */
+.signup-form {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-footer {
-  margin-top: 40px;
-  font-size: 0.9rem;
+.signup-form .email-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    flex: 1;
+}
+
+.signup-form button {
+    padding: 10px 20px;
+    border: none;
+    background: #0062E6;
+    color: white;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.signup-form button:hover {
+    background: #004aaf;
+}
+
+/* Features section */
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.feature-item {
+    background: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    flex: 0 0 260px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.feature-item h3 {
+    color: #0062E6;
+    margin-bottom: 10px;
+}
+
+/* Mission section */
+.mission {
+    margin-top: 60px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.mission h2 {
+    color: #0062E6;
+    margin-bottom: 15px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .features {
+        flex-direction: column;
+        align-items: center;
+    }
+    .feature-item {
+        width: 80%;
+    }
 }
