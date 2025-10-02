@@ -1,0 +1,16 @@
+{
+  "welcome": "Bem-vindo ao Startsup",
+  "tagline": "Onde ideias encontram capital",
+  "description": "Startsup é uma plataforma onde empreendedores e investidores se conectam, colaboram e crescem",
+  "notify_text": "Seja o primeiro a saber quando lançarmos!",
+  "notify_button": "Notifique-me",
+  "features_title": "Principais recursos",
+  "feature1": "Conecte-se com investidores",
+  "feature2": "Colabore com fundadores",
+  "feature3": "Faça crescer sua startup",
+  "mission_title": "Nossa missão",
+  "mission_desc": "Capacitamos startups e investidores fornecendo uma plataforma para se conectar, colaborar e ter sucesso.",
+  "nav_terms": "Termos de Serviço",
+  "nav_privacy": "Política de Privacidade",
+  "email_placeholder": "Digite seu e-mail"
+}
