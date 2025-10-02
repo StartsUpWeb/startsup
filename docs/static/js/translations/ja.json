@@ -1,0 +1,16 @@
+{
+  "welcome": "Startsupへようこそ",
+  "tagline": "アイデアが資本と出会う場所",
+  "description": "Startsupは、起業家と投資家がつながり、協力し、成長するためのプラットフォームです",
+  "notify_text": "リリース時にいち早くお知らせします！",
+  "notify_button": "通知する",
+  "features_title": "主な特徴",
+  "feature1": "投資家とつながる",
+  "feature2": "創業者と協力する",
+  "feature3": "あなたのスタートアップを成長させる",
+  "mission_title": "私たちの作用",
+  "mission_desc": "私たちは、起業家と投資家に、つながり、協力し、成功するためのプラットフォームを提供します。",
+  "nav_terms": "利用規約",
+  "nav_privacy": "プライバシーポリシー",
+  "email_placeholder": "メールアドレスを入力してください"
+}
