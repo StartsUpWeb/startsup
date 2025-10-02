@@ -1,1 +1,16 @@
-{"welcome": "Bienvenue sur StartsUp", "tagline": "O\u00f9 les id\u00e9es rencontrent le capital. Le r\u00e9seau social ultime pour startuppers et investisseurs.", "description": "StartsUp est une plateforme r\u00e9volutionnaire o\u00f9 entrepreneurs et investisseurs se connectent, collaborent et grandissent. Que vous lanciez votre premi\u00e8re startup ou recherchiez la prochaine grande opportunit\u00e9 d'investissement, StartsUp propose des outils puissants, des profils v\u00e9rifi\u00e9s, des chats s\u00e9curis\u00e9s et des analyses de performance pour b\u00e2tir des relations d'affaires significatives.", "notify": "Soyez le premier \u00e0 savoir quand nous lan\u00e7ons!", "button": "Pr\u00e9venez-moi"}
+{
+  "welcome": "Bienvenue sur Startsup",
+  "tagline": "Où les idées rencontrent le capital",
+  "description": "Startsup est une plateforme où entrepreneurs et investisseurs se connectent, collaborent et grandissent",
+  "notify_text": "Soyez le premier à être informé de notre lancement !",
+  "notify_button": "Avertissez-moi",
+  "features_title": "Fonctionnalités clés",
+  "feature1": "Connectez-vous avec des investisseurs",
+  "feature2": "Collaborez avec des fondateurs",
+  "feature3": "Faites croître votre start-up",
+  "mission_title": "Notre mission",
+  "mission_desc": "Nous aidons les start-up et les investisseurs en leur fournissant une plateforme pour se connecter, collaborer et réussir.",
+  "nav_terms": "Conditions d'utilisation",
+  "nav_privacy": "Politique de confidentialité",
+  "email_placeholder": "Entrez votre email"
+}
