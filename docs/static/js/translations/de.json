@@ -1,1 +1,16 @@
-{"welcome": "Willkommen bei StartsUp", "tagline": "Wo Ideen auf Kapital treffen. Das ultimative soziale Netzwerk f\u00fcr Startupper und Investoren.", "description": "StartsUp ist eine revolution\u00e4re Plattform, auf der Unternehmer und Investoren sich verbinden, zusammenarbeiten und wachsen. Egal, ob Sie Ihr erstes Startup gr\u00fcnden oder die n\u00e4chste gro\u00dfe Investitionsm\u00f6glichkeit suchen, StartsUp bietet leistungsstarke Tools, verifizierte Profile, sichere Chats und Leistungsanalysen, um bedeutungsvolle Gesch\u00e4ftsbeziehungen aufzubauen.", "notify": "Seien Sie der Erste, der von unserem Start erf\u00e4hrt!", "button": "Benachrichtige mich"}
+{
+  "welcome": "Willkommen bei Startsup",
+  "tagline": "Wo Ideen auf Kapital treffen",
+  "description": "Startsup ist eine Plattform, auf der Unternehmer und Investoren sich verbinden, zusammenarbeiten und wachsen",
+  "notify_text": "Seien Sie der Erste, der von unserem Launch erfährt!",
+  "notify_button": "Benachrichtige mich",
+  "features_title": "Hauptmerkmale",
+  "feature1": "Verbindet euch mit Investoren",
+  "feature2": "Arbeitet mit Gründern zusammen",
+  "feature3": "Wachse mit deinem Startup",
+  "mission_title": "Unsere Mission",
+  "mission_desc": "Wir empowern Startups und Investoren, indem wir eine Plattform bieten, um sich zu verbinden, zusammenzuarbeiten und erfolgreich zu sein.",
+  "nav_terms": "Nutzungsbedingungen",
+  "nav_privacy": "Datenschutzrichtlinie",
+  "email_placeholder": "Geben Sie Ihre E-Mail ein"
+}
